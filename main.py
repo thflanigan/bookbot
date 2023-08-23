@@ -35,9 +35,7 @@ def make_report(book, text):
     print(f"There are {word_count} words in the document")
     for letter in letter_list:
         print(f"The letter {letter} is used {letter_count[letter]}")
-    
-        
-    
+    print("---End of Report---")
         
 main()
 
